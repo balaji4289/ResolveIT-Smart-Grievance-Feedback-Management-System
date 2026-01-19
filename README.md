@@ -42,23 +42,7 @@ This project was developed as part of an internship program and follows real-wor
 - Update complaint status (Open, In Progress, Resolved, Escalated)
 - System-wide dashboard with overall statistics
 
----
-
-## 📂 Project Structure
-
-ResolveIT/
-├── database/
-│   └── resolveitdb.sql
-├── resolveit-backend/
-│   ├── src/main/java
-│   ├── src/main/resources
-│   └── pom.xml
-├── resolveit-frontend/
-│   ├── public
-│   ├── src
-│   ├── package.json
-│   └── README.md
-└── README.md
+--
 
 ---
 
