@@ -62,9 +62,92 @@ ResolveIT/
 
 ---
 
+---
+
 ## ⚙️ How to Run the Project
 
 ### 1️⃣ Database Setup
-- Install MySQL
-- Create a database named `resolveit`
-- Import the SQL file:
+1. Install MySQL
+2. Create a database:
+
+CREATE DATABASE resolveit;
+4. Import the SQL file:
+database/resolveitdb.sql
+
+
+---
+
+### 2️⃣ Backend Setup
+1. Navigate to backend folder:
+
+
+cd resolveit-backend
+
+2. Update database credentials in:
+
+
+src/main/resources/application.properties
+
+3. Run the backend:
+
+
+mvn clean install
+mvn spring-boot:run
+
+4. Backend runs at:
+
+
+http://localhost:8080
+
+
+---
+
+### 3️⃣ Frontend Setup
+1. Navigate to frontend folder:
+
+
+cd resolveit-frontend
+
+2. Install dependencies:
+
+
+npm install
+
+3. Start the frontend:
+
+
+npm start
+
+4. Frontend runs at:
+
+
+http://localhost:3000
+
+
+---
+
+## 🔐 Security & Authentication
+- JWT-based authentication
+- Role-based authorization (ROLE_USER, ROLE_ADMIN)
+- Protected routes for admin and user actions
+- Secure REST APIs
+
+---
+
+## 📧 Additional Features
+- File attachment support for complaints
+- Email notification integration (SMTP)
+- Complaint status tracking
+- SLA-based complaint handling (priority-driven)
+
+---
+
+## 📄 License
+This project is licensed under the **MIT License**.  
+See the `LICENSE` file for more details.
+
+---
+
+## 👨‍💻 Author
+**Balaji Pechetti**  
+Internship Project – 2026
